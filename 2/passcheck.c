@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-// Make a program that scans a file by each line and check the different symbols and having a certain type as a break before having a new operation on following value.
+// First plan was to make a program to read line by line and store strings of letters in arrays.
 
-// Current plan is to read it with fgetc() and do different operations depending on what is stored in c.
+// Changed the idea to an array-minimal approach only utilising fgetc and putting it in loops of different segments of each line.
 
-// One could use an array of array and store strings in but I will make the program do sequential tests using fgetc() and only storing important values in variables
+// A straight and somewhat minimalistic approach
+
 
 int main(void) {
     int positionfp = 0, i = 0;    // positionfp be used as marker for position of fgetc(fp)
