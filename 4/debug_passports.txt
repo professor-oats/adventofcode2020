@@ -1,0 +1,21 @@
+bccdeeghhiillprrrtyyy
+
+Solved the problem and there seems to be two solutions on this Day 4.
+My solution is 210, but when I run another persons code with the same input I get the answer 208, which should be right.
+
+What makes my solution wrong (and shared with another person on the site) can be that my solution does not take mispelled passes
+into account and my theory is that two of them can actually be misspelled. Also dependent on the program used to generate the right solution
+in the first place one must also think if the missing delimiter at EOF is taken into account or not.
+
+In short there may be one or two misspelled passes in the input data and one could argue if they would count as valid or not.
+
+Extra assignment will be to make a program that check for spelling errors also.
+
+One thing to think of when you make a program that scan all parts of the file for the keywords is that the combination of letters could 
+make a false keyword appearing in the hexcode for hair color.
+
+Since stringtesting will be the crucial part in the next version of the program I will likely make it in another language.
+If I still want to go with C I will opt for a regexp solution.
+
+If I go with regexp solution I can let the program output the keywords to a file and after that use the regexp to read. That is if one
+can't use regexp to read directly from array to output.
